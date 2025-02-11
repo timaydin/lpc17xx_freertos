@@ -36,8 +36,8 @@
    ---------------------------------------------------------------------------*/
 
 
-#ifndef SYSTEM_Device_H   /* ToDo: replace '<Device>' with your device name */
-#define SYSTEM_Device_H
+#ifndef SYSTEM_LPC17xx_H
+#define SYSTEM_LPC17xx_H
 
 #ifdef __cplusplus
 extern "C" {
@@ -74,4 +74,4 @@ extern void SystemCoreClockUpdate (void);
 }
 #endif
 
-#endif /* SYSTEM_<Device>_H */
+#endif /* SYSTEM_LPC17xx_H */
