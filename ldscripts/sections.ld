@@ -104,7 +104,7 @@ SECTIONS
 
     } >FLASH
 
-    .inits : ALIGN(4)
+    .inits (READONLY) : ALIGN(4)
     {
         /* 
          * Memory regions initialisation arrays.
