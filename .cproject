@@ -68,6 +68,8 @@
 									<listOptionValue builtIn="false" value="&quot;../system/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;../system/include/cmsis&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;../system/include/LPC17xx&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../src/FreeRTOS-Kernel/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../src/FreeRTOS-Kernel/portable/GCC/ARM_CM3&quot;"/>
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs.1032729740" name="Defined symbols (-D)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs" useByScannerDiscovery="true" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="DEBUG"/>
@@ -138,7 +140,8 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry excluding="FreeRTOS-Kernel/portable/GCC|FreeRTOS-Kernel/portable/WizC|FreeRTOS-Kernel/portable/ThirdParty|FreeRTOS-Kernel/portable/template|FreeRTOS-Kernel/portable/Tasking|FreeRTOS-Kernel/portable/Softune|FreeRTOS-Kernel/portable/SDCC|FreeRTOS-Kernel/portable/RVDS|FreeRTOS-Kernel/portable/Rowley|FreeRTOS-Kernel/portable/Renesas|FreeRTOS-Kernel/portable/Paradigm|FreeRTOS-Kernel/portable/oWatcom|FreeRTOS-Kernel/portable/MSVC-MingW|FreeRTOS-Kernel/portable/MPLAB|FreeRTOS-Kernel/portable/MikroC|FreeRTOS-Kernel/portable/MemMang|FreeRTOS-Kernel/portable/Keil|FreeRTOS-Kernel/portable/IAR|FreeRTOS-Kernel/portable/Common|FreeRTOS-Kernel/portable/CodeWarrior|FreeRTOS-Kernel/portable/CCS|FreeRTOS-Kernel/portable/BCC|FreeRTOS-Kernel/portable/ARMv8M|FreeRTOS-Kernel/portable/ARMClang|FreeRTOS-Kernel/examples" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src/FreeRTOS-Kernel/portable/GCC/ARM_CM3"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="system"/>
 					</sourceEntries>
 				</configuration>
@@ -210,6 +213,8 @@
 									<listOptionValue builtIn="false" value="&quot;../system/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;../system/include/cmsis&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;../system/include/LPC17xx&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../src/FreeRTOS-Kernel/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../src/FreeRTOS-Kernel/portable/GCC/ARM_CM3&quot;"/>
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs.591069039" name="Defined symbols (-D)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs" useByScannerDiscovery="true" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="NDEBUG"/>
@@ -278,7 +283,8 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry excluding="FreeRTOS-Kernel/portable/GCC|FreeRTOS-Kernel/portable/WizC|FreeRTOS-Kernel/portable/ThirdParty|FreeRTOS-Kernel/portable/template|FreeRTOS-Kernel/portable/Tasking|FreeRTOS-Kernel/portable/Softune|FreeRTOS-Kernel/portable/SDCC|FreeRTOS-Kernel/portable/RVDS|FreeRTOS-Kernel/portable/Rowley|FreeRTOS-Kernel/portable/Renesas|FreeRTOS-Kernel/portable/Paradigm|FreeRTOS-Kernel/portable/oWatcom|FreeRTOS-Kernel/portable/MSVC-MingW|FreeRTOS-Kernel/portable/MPLAB|FreeRTOS-Kernel/portable/MikroC|FreeRTOS-Kernel/portable/MemMang|FreeRTOS-Kernel/portable/Keil|FreeRTOS-Kernel/portable/IAR|FreeRTOS-Kernel/portable/Common|FreeRTOS-Kernel/portable/CodeWarrior|FreeRTOS-Kernel/portable/CCS|FreeRTOS-Kernel/portable/BCC|FreeRTOS-Kernel/portable/ARMv8M|FreeRTOS-Kernel/portable/ARMClang|FreeRTOS-Kernel/examples" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src/FreeRTOS-Kernel/portable/GCC/ARM_CM3"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="system"/>
 					</sourceEntries>
 				</configuration>
