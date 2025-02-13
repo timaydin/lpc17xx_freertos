@@ -5,7 +5,7 @@
 **********************************************************************
 
 File          : /home/ta/personal/freertos_lpc17xx/freertos_helloworld/freertos_helloworld.jdebug
-Created       : 11 Feb 2025 22:17
+Created       : 13 Feb 2025 00:29
 Ozone Version : V3.38c
 */
 
@@ -23,11 +23,10 @@ void OnProjectLoad (void) {
   // Dialog-generated settings
   //
   Project.AddPathSubstitute ("/home/ta/personal/freertos_lpc17xx/freertos_helloworld", "$(ProjectDir)");
-  Project.AddPathSubstitute ("/home/ta/personal/freertos_lpc17xx/freertos_helloworld", "$(ProjectDir)");
   Project.SetDevice ("LPC1768");
   Project.SetHostIF ("USB", "");
   Project.SetTargetIF ("SWD");
-  Project.SetTIFSpeed ("50 MHz");
+  Project.SetTIFSpeed ("4 MHz");
   Project.AddSvdFile ("$(InstallDir)/Config/CPU/Cortex-M3.svd");
   //
   // User settings
@@ -112,9 +111,9 @@ void OnProjectLoad (void) {
 **
 **********************************************************************
 */
-void AfterTargetReset (void) {
-  _SetupTarget();
-}
+//void AfterTargetReset (void) {
+//  _SetupTarget();
+//}
 
 /*********************************************************************
 *
@@ -198,9 +197,9 @@ void AfterTargetReset (void) {
 *
 **********************************************************************
 */
-void AfterTargetDownload (void) {
-  _SetupTarget();
-}
+//void AfterTargetDownload (void) {
+//  _SetupTarget();
+//}
 
 /*********************************************************************
 *
