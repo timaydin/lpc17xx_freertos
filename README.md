@@ -10,3 +10,5 @@ Bu standart bileşenlere ilave olarak, Eclipse IDE ile gelen CMSIS kütüphanesi
 Programda gene NXP tarafından kontrol edilmeyen ve tamamen bağımsız olarak geliştirilen FreeRTOS-Kernel de kullanımaktadır. LPC17xx ile çalışması için gereken yapılandırmalar gerçekleştirilmiştir.
 
 Programı derlemek için Eclipse IDE nin son sürümü indirilir. Kurulup programı çalıştırılıp seçeneklerden "Eclipse IDE for Embedded C/C++ Developers" kurulur. Sonra da ARM toolchain indirilir ve uygun bir yere kurulumu yapılır. Sonra IDE çalıştırılıp buradaki proje açılır.
+
+Program Bigtreetech SKR v1.3 kartı üzerinde test edilmiştir. Semihosting özelliği de aktive edilmiştir. Eğer JLink debug adaptörü var ise, semihosting terminal üzerinden programın çalışması doğrulanabilir. Program bir tane task oluşturur ve bu task da her saniye bir değişkenin değerini bir arttırır ve mevcut değerini semihosting terminale yazar.
