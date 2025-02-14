@@ -85,6 +85,8 @@
 									<listOptionValue builtIn="false" value="&quot;../system/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;../system/include/cmsis&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;../system/include/LPC17xx&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../src/FreeRTOS-Kernel/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../src/freertos_lpc17xx&quot;"/>
 								</option>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.noexceptions.1684623207" name="Do not use exceptions (-fno-exceptions)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.noexceptions" useByScannerDiscovery="true" value="true" valueType="boolean"/>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.nortti.2054466667" name="Do not use RTTI (-fno-rtti)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.nortti" useByScannerDiscovery="true" value="true" valueType="boolean"/>
@@ -148,8 +150,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="FreeRTOS-Kernel/portable/GCC|FreeRTOS-Kernel/portable/WizC|FreeRTOS-Kernel/portable/ThirdParty|FreeRTOS-Kernel/portable/template|FreeRTOS-Kernel/portable/Tasking|FreeRTOS-Kernel/portable/Softune|FreeRTOS-Kernel/portable/SDCC|FreeRTOS-Kernel/portable/RVDS|FreeRTOS-Kernel/portable/Rowley|FreeRTOS-Kernel/portable/Renesas|FreeRTOS-Kernel/portable/Paradigm|FreeRTOS-Kernel/portable/oWatcom|FreeRTOS-Kernel/portable/MSVC-MingW|FreeRTOS-Kernel/portable/MPLAB|FreeRTOS-Kernel/portable/MikroC|FreeRTOS-Kernel/portable/MemMang|FreeRTOS-Kernel/portable/Keil|FreeRTOS-Kernel/portable/IAR|FreeRTOS-Kernel/portable/Common|FreeRTOS-Kernel/portable/CodeWarrior|FreeRTOS-Kernel/portable/CCS|FreeRTOS-Kernel/portable/BCC|FreeRTOS-Kernel/portable/ARMv8M|FreeRTOS-Kernel/portable/ARMClang|FreeRTOS-Kernel/examples" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src/FreeRTOS-Kernel/portable/GCC/ARM_CM3"/>
+						<entry excluding="FreeRTOS-Kernel/portable/MemMang/heap_5.c|FreeRTOS-Kernel/portable/MemMang/heap_3.c|FreeRTOS-Kernel/portable/MemMang/heap_2.c|FreeRTOS-Kernel/portable/MemMang/heap_1.c|FreeRTOS-Kernel/portable/GCC|FreeRTOS-Kernel/portable/WizC|FreeRTOS-Kernel/portable/ThirdParty|FreeRTOS-Kernel/portable/template|FreeRTOS-Kernel/portable/Tasking|FreeRTOS-Kernel/portable/Softune|FreeRTOS-Kernel/portable/SDCC|FreeRTOS-Kernel/portable/RVDS|FreeRTOS-Kernel/portable/Rowley|FreeRTOS-Kernel/portable/Renesas|FreeRTOS-Kernel/portable/Paradigm|FreeRTOS-Kernel/portable/oWatcom|FreeRTOS-Kernel/portable/MSVC-MingW|FreeRTOS-Kernel/portable/MPLAB|FreeRTOS-Kernel/portable/MikroC|FreeRTOS-Kernel/portable/Keil|FreeRTOS-Kernel/portable/IAR|FreeRTOS-Kernel/portable/Common|FreeRTOS-Kernel/portable/CodeWarrior|FreeRTOS-Kernel/portable/CCS|FreeRTOS-Kernel/portable/BCC|FreeRTOS-Kernel/portable/ARMv8M|FreeRTOS-Kernel/portable/ARMClang|FreeRTOS-Kernel/examples" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="system"/>
 					</sourceEntries>
 				</configuration>
@@ -241,6 +242,8 @@
 									<listOptionValue builtIn="false" value="&quot;../system/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;../system/include/cmsis&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;../system/include/LPC17xx&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../src/FreeRTOS-Kernel/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../src/freertos_lpc17xx&quot;"/>
 								</option>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.noexceptions.723003544" name="Do not use exceptions (-fno-exceptions)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.noexceptions" useByScannerDiscovery="true" value="true" valueType="boolean"/>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.nortti.1369416949" name="Do not use RTTI (-fno-rtti)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.nortti" useByScannerDiscovery="true" value="true" valueType="boolean"/>
@@ -304,8 +307,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="FreeRTOS-Kernel/portable/GCC|FreeRTOS-Kernel/portable/WizC|FreeRTOS-Kernel/portable/ThirdParty|FreeRTOS-Kernel/portable/template|FreeRTOS-Kernel/portable/Tasking|FreeRTOS-Kernel/portable/Softune|FreeRTOS-Kernel/portable/SDCC|FreeRTOS-Kernel/portable/RVDS|FreeRTOS-Kernel/portable/Rowley|FreeRTOS-Kernel/portable/Renesas|FreeRTOS-Kernel/portable/Paradigm|FreeRTOS-Kernel/portable/oWatcom|FreeRTOS-Kernel/portable/MSVC-MingW|FreeRTOS-Kernel/portable/MPLAB|FreeRTOS-Kernel/portable/MikroC|FreeRTOS-Kernel/portable/MemMang|FreeRTOS-Kernel/portable/Keil|FreeRTOS-Kernel/portable/IAR|FreeRTOS-Kernel/portable/Common|FreeRTOS-Kernel/portable/CodeWarrior|FreeRTOS-Kernel/portable/CCS|FreeRTOS-Kernel/portable/BCC|FreeRTOS-Kernel/portable/ARMv8M|FreeRTOS-Kernel/portable/ARMClang|FreeRTOS-Kernel/examples" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src/FreeRTOS-Kernel/portable/GCC/ARM_CM3"/>
+						<entry excluding="FreeRTOS-Kernel/portable/MemMang/heap_5.c|FreeRTOS-Kernel/portable/MemMang/heap_3.c|FreeRTOS-Kernel/portable/MemMang/heap_2.c|FreeRTOS-Kernel/portable/MemMang/heap_1.c|FreeRTOS-Kernel/portable/GCC|FreeRTOS-Kernel/portable/WizC|FreeRTOS-Kernel/portable/ThirdParty|FreeRTOS-Kernel/portable/template|FreeRTOS-Kernel/portable/Tasking|FreeRTOS-Kernel/portable/Softune|FreeRTOS-Kernel/portable/SDCC|FreeRTOS-Kernel/portable/RVDS|FreeRTOS-Kernel/portable/Rowley|FreeRTOS-Kernel/portable/Renesas|FreeRTOS-Kernel/portable/Paradigm|FreeRTOS-Kernel/portable/oWatcom|FreeRTOS-Kernel/portable/MSVC-MingW|FreeRTOS-Kernel/portable/MPLAB|FreeRTOS-Kernel/portable/MikroC|FreeRTOS-Kernel/portable/Keil|FreeRTOS-Kernel/portable/IAR|FreeRTOS-Kernel/portable/Common|FreeRTOS-Kernel/portable/CodeWarrior|FreeRTOS-Kernel/portable/CCS|FreeRTOS-Kernel/portable/BCC|FreeRTOS-Kernel/portable/ARMv8M|FreeRTOS-Kernel/portable/ARMClang|FreeRTOS-Kernel/examples" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="system"/>
 					</sourceEntries>
 				</configuration>
