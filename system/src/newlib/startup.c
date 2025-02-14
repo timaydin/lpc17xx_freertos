@@ -56,6 +56,8 @@
 #include <stdint.h>
 #include <sys/types.h>
 
+#define OS_INCLUDE_STARTUP_INIT_MULTIPLE_RAM_SECTIONS 1
+
 // ----------------------------------------------------------------------------
 
 #if !defined(OS_INCLUDE_STARTUP_GUARD_CHECKS)
